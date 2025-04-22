@@ -1,0 +1,195 @@
+/* Réinitialisation des marges et des rembourrages */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #060c42;
+    color: #e21818;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #a91414;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #bc2727;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre légère */
+}
+
+a {
+    color: #78798b;
+    text-decoration: none;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #0f27ff;
+    color: #000000;
+    font-size: 16px;
+    border-radius: 5px; /* Ajout d'une bordure arrondie */
+    transition: background-color 0.3s ease; /* Transition fluide */
+}
+
+button:hover {
+    background-color: #d32a2a; /* Changement de couleur au survol */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px red; /* Ajout d'une ombre légère */
+}
+
+.description {
+    text-align: center;
+    margin-top: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.separator {
+    border: none;
+    border-top: 1px solid #e93434;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Ajout de marges pour les boutons */
+button:not(:last-child) {
+    margin-right: 10px;
+}
+
+
+
+.image-container {
+    display: inline-block;
+    width: 45%;
+    margin-right: 5px;
+}
+
+.image-container img {
+    max-width: 100%; /* Modifier la largeur maximale */
+    height: auto;
+    display: block;
+}
+
+.image-main {
+    width: 100%;
+    max-width: 400px; /* Ajuste la largeur maximale de l'image principale */
+    display: block;
+    margin: 0 auto;
+}
+
+.image-secondary {
+    max-width: 100%; /* Modifier la largeur maximale */
+}
+
+
+/* Style pour la barre de recherche */
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    padding: 10px;
+    border: 1px solid #853636;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-container input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #a94646;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour la barre de recherche */
+.search-container {
+    margin: 20px auto; /* Ajoute une marge en haut et en bas et centre horizontalement */
+    text-align: center; /* Centre le contenu à l'intérieur du conteneur */
+}
+
+.search-container input[type="text"] {
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    padding: 10px;
+    border: 1px solid #6e1919;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-container input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #4f13636b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+ul {
+    background-color: #ffffff;
+}
+
+.catalogue-link {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #ddd;  /* Simule une bordure douce */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajoute un effet d'ombre pour ressembler à un catalogue */
+    padding: 10px;
+    transition: transform 0.2s ease-in-out; /* Pour un effet de survol */
+    background-color: #fff;
+}
+
+.catalogue-link:hover {
+    transform: scale(1.05); /* Effet d'agrandissement au survol */
+}
+
+.catalogue-image {
+    width: 100%;  /* S'assure que l'image prend toute la largeur de l'élément parent */
+    height: auto;
+    display: block; /* Enlève les marges automatiques autour de l'image */
+    border: none; /* Pas de bordures autour de l'image */
+}

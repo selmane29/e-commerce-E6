@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+     padding-top: 0;
+     
+}
+
+h1  { 
+   color: rgb(255, 255, 255);
+   text-align: center;
+   
+}
+
+ul { 
+   text-decoration: none;
+   color: rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255);
+   text-decoration: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 1px;
+   margin: 0; } 
+div{
+
+   justify-content: center;
+   text-align: top;
+
+}
+
+a{ color: rgb(0, 4, 65);
+}
+
+
+button{
+   size: 5cm;
+   align-items: center;
+}
+
+image{
+   background-image: none;
+   justify-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #060c42; /* Remplacez cette valeur par la couleur bleu foncé de votre choix */
+    color: #ffffff; /* Couleur du texte (blanc dans cet exemple) */
+}
+
+.contenu {
+    /* Vous pouvez ajouter des styles supplémentaires pour le contenu de la page ici */
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #1e272e; /* Couleur de fond bleu foncé */
+    color: #ffffff; /* Couleur du texte (blanc dans cet exemple) */
+}
+
+.contenu {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #3498db; /* Couleur du titre h1 (bleu clair dans cet exemple) */
+}
+
+.rectangle {
+    width: 700px; /* Ajustez la largeur du rectangle selon vos besoins */
+    height: 150px;
+    background-color: #060c42;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Le reste du CSS reste inchangé */
+
+.rectangle p {
+    margin: 0; /* Supprime la marge par défaut du paragraphe à l'intérieur du rectangle */
+    color: #ffffff; /* Couleur du texte à l'intérieur du rectangle (blanc dans cet exemple) */
+}
+
+.manger{
+    text-align: center;
+}
+.dormir{
+    text-align: center;
+}

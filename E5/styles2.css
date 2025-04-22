@@ -1,0 +1,112 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour la liste des produits */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+.product-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Effet sur les produits au survol */
+.product-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Image des produits */
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Titre des produits */
+.product-item h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Prix des produits */
+.product-item p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #007BFF;
+}
+
+/* Bouton "Ajouter au Panier" */
+.product-item form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.product-item form button:hover {
+    background-color: #218838;
+}
+
+/* Lien vers le panier */
+a {
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 200px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
+
+/* Ajustements pour les petites résolutions */
+@media (max-width: 768px) {
+    .product-item {
+        width: 90%;
+    }
+
+    a {
+        width: 90%;
+    }
+}
+.navbar {
+    background-color: #028a0f; /* Your custom green */
+}
+.navbar a.nav-link {
+    color: white !important;
+}
+.navbar a.nav-link:hover {
+    color: #d4edda !important;
+}
+
